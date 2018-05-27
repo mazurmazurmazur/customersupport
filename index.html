@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Customer Support</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+        <div class="requestContainer">
+
+                <section id="wrapperJson"></section>
+           <template id = "requestTemplate">
+           <article id="request">
+           
+                   <div class="requestWrapper">
+                       </div>
+                           <div class="requestItemWrapper">
+                                <span class = "beforeColon nameSpan" >Name :</span><p class="names"></p>
+                               <span class = "beforeColon dateSpan" >Date :</span><p class="date"></p>
+                               <span class = "beforeColon importanceSpan" >Importance: </span><p class="importance"></p>
+                               <div id="chart_div" style="width: 400px; height: 120px;"></div>
+                               
+
+                               
+                               <span class = "beforeColon descSpan" > Issue description :</span><br><button  class="show">SHOW</button><p class="desc"><br></p>
+                               <a href="something" class="solvedButton">Solved!</a>
+                           </div>
+           
+           
+                       </article>
+               </template>
+           
+           </div>
+
+
+
+
+
+
+    
+    <script src="main.js"></script>
+</body>
+</html>

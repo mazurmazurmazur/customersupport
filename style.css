@@ -1,0 +1,43 @@
+:root{
+    background: rgb(160, 209, 231);
+    font-family:'Roboto',sans-serif;
+
+}
+
+.requestWrapper{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(120, 143, 206);
+    width: 50vw;
+}
+
+.beforeColon{
+    font-weight: bold;
+}
+
+.desc{
+    display: none;
+}
+
+a.solvedButton{
+display:inline-block;
+padding:0.35em 1.2em;
+border:0.1em solid rgb(255, 1, 1);
+margin:0 0.3em 0.3em 0;
+border-radius:0.12em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:rgb(255, 0, 0);
+text-align:center;
+transition: all 0.2s;
+position: relative;
+bottom:250px;
+left: 40vw;
+}
+a.solvedButton:hover{
+color:#000000;
+background-color:#FFFFFF;
+}
+
